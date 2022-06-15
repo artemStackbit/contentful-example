@@ -13,13 +13,6 @@ publishDir: out
 
 # The "import" object defines how Stackbit should provision Contentful when
 # creating a new site from this theme via https://app.stackbit.com/create.
-import:
-  type: contentful
-  contentFile: contentful/export.json
-  uploadAssets: true
-  assetsDirectory: contentful
-  spaceIdEnvVar: CONTENTFUL_SPACE_ID
-  accessTokenEnvVar: CONTENTFUL_DELIVERY_TOKEN
 
 styleObjectModelName: ThemeStyle
 
